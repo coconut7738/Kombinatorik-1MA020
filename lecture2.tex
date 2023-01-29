@@ -169,7 +169,7 @@ I slutet av förra föreläsningen diskuterade vi kombinatoriska bevis, och bevi
 
     Till slut vet vi att det totala antalet ternära strängar måste vara summan av detta över alla $k$, enligt additionsprincipen. Så om vi summerar detta får vi att det finns
     $$\sum_{k=0}^n \binom{n}{k}2^{n-k}$$
-    ternära strängar. Efter att ha tillämpat likheten $\binom{n}{k} = \binom{n}{n-k}$ och vänt på indexeringen i summan ser vi att detta är precis höger led i ekvationen vi gav.
+    ternära strängar. Efter att ha tillämpat likheten $\binom{n}{k} = \binom{n}{n-k}$ och vänt på indexeringen i summan ser vi att detta är precis höger led i ekvationen vi gav. (Alltså båda summor beskriver samma summa men vänt, så sista termen i andra summan är samma som första termen i första summan osv.)
         $$\sum_{k=0}^n \binom{n}{n-k}2^{n-k}=\binom{n}{n}2^n+\binom{n}{n-1}2^{n-1}+\cdots+\binom{n}{1}2^1+\binom{n}{0}2^0$$
     $$\sum_{k=0}^n \binom{n}{k}2^k=\binom{n}{0}2^0+\binom{n}{1}2^{1}+\cdots+\binom{n}{n-1}2^n-1+\binom{n}{n}2^n$$
 

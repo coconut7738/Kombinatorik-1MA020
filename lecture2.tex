@@ -397,7 +397,7 @@ a) Ordet $54240244$ har:
   \item 1 "0"
 \end{itemize}
 Eftersom vi har flest $4$or så väljer jag att först placera ut dem (spelar ingen roll vilken man börjar med). Vi har totalt 8 platser och 4 st $4$ vilket ger oss $\binom{8}{4}$ olika sätt att placera ut $4$orna.\\
-Därefter vill vi placera ut nästa siffra. Låt oss fortsätta med $2$orna. Om vi vid varje omordning placerar ut $4$orna först koer det alltid finnas 4 tomma platser kvar för resterande siffror oavsett vart $4$orna placerades. (vi vet inte vart dem placerades bara att 4 platser ockuperats vilket ger oss $8-4=4$ platser kvar.) Därför har vi $\binom{4}{2}$ stycken val för $2$orna.\\
+Därefter vill vi placera ut nästa siffra. Låt oss fortsätta med $2$orna. Om vi vid varje omordning placerar ut $4$orna först kommer det alltid finnas 4 tomma platser kvar för resterande siffror oavsett vart $4$orna placerades. (vi vet inte vart dem placerades bara att 4 platser ockuperats vilket ger oss $8-4=4$ platser kvar.) Därför har vi $\binom{4}{2}$ stycken val för $2$orna.\\
 Vi fortsätter med $5$orna. Med samma princip som innan har vi nu $8-4-2=2$ platser kvar alltså har vi $\binom{2}{1}$ olika sätt att placera ut $5$.\\
 Sist är $0$an och nu har vi bara 1 plats kvar så det ger oss $\binom{1}{1}$ olika sätt att placera ut $0$an. Detta kommer då ge oss:
 $$\binom{8}{4}\binom{4}{2}\binom{2}{1}\binom{1}{1}=\frac{8!}{4!4!}\frac{4!}{2!2!}\frac{2!}{1!1!}\frac{1!}{1!0!}$$
